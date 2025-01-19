@@ -223,43 +223,43 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
 ### Performans Metrik Değerleri
 #### Saatlik Ücret
 - `Lojistik Regresyon`:
-  - Accuracy: 0.63
+  - Accuracy: 0.66
   - Sınıflandırma Raporu:
     ```
     Classification Report for Logistic Regression:
                   precision    recall  f1-score   support
     
-           Düşük       0.53      0.46      0.49       299
-            Orta       0.71      0.61      0.66       322
-          Yüksek       0.63      0.80      0.71       310
+           Düşük       0.58      0.49      0.53       299
+            Orta       0.71      0.67      0.69       322
+          Yüksek       0.67      0.81      0.73       310
     
-        accuracy                           0.63       931
-       macro avg       0.62      0.63      0.62       931
-    weighted avg       0.63      0.63      0.62       931
+        accuracy                           0.66       931
+       macro avg       0.65      0.66      0.65       931
+    weighted avg       0.66      0.66      0.65       931
     ```
   - Karışıklık Matrisi:
     <p align="center">
-    <img src="https://github.com/user-attachments/assets/46cc6660-40a4-46e6-8586-c8a1542b19a4" width="400">
+    <img src="https://github.com/user-attachments/assets/65d0ea6a-6d9c-45a0-9ff9-b9635c0c1bfb" width="400">
     </p>
-
+    
 - `Support Vector Machine (SVM)`:
-  - Accuracy: 0.62
+  - Accuracy: 0.64
   - Sınıflandırma Raporu:
     ```
     Classification Report for Support Vector Machine:
                   precision    recall  f1-score   support
     
-           Düşük       0.50      0.51      0.50       299
-            Orta       0.72      0.57      0.64       322
-          Yüksek       0.65      0.77      0.70       310
+           Düşük       0.52      0.53      0.52       299
+            Orta       0.71      0.58      0.64       322
+          Yüksek       0.69      0.80      0.74       310
     
-        accuracy                           0.62       931
-       macro avg       0.62      0.62      0.62       931
-    weighted avg       0.63      0.62      0.62       931
+        accuracy                           0.64       931
+       macro avg       0.64      0.64      0.64       931
+    weighted avg       0.64      0.64      0.64       931
     ```
   - Karışıklık Matrisi:
     <p align="center">
-    <img src="https://github.com/user-attachments/assets/efaab68e-61c9-49c1-badc-bb02653d789d" width="400">
+    <img src="https://github.com/user-attachments/assets/d0bf260d-18ca-4953-803a-879551d53ffa" width="400">
     </p>
 
     
@@ -270,38 +270,38 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
     Classification Report for Random Forest:
                   precision    recall  f1-score   support
     
-           Düşük       0.64      0.66      0.65       299
-            Orta       0.82      0.60      0.69       322
-          Yüksek       0.74      0.93      0.83       310
+           Düşük       0.70      0.61      0.65       299
+            Orta       0.79      0.64      0.71       322
+          Yüksek       0.72      0.95      0.82       310
     
         accuracy                           0.73       931
-       macro avg       0.73      0.73      0.72       931
-    weighted avg       0.74      0.73      0.72       931
+       macro avg       0.74      0.73      0.73       931
+    weighted avg       0.74      0.73      0.73       931
     ```
   - Karışıklık Matrisi:
     <p align="center">
-    <img src="https://github.com/user-attachments/assets/44932343-fb65-4a69-a6ca-5f5df7f9296b" width="400">
+    <img src="https://github.com/user-attachments/assets/6276024e-e798-4c8f-a6f7-793489aad5e7" width="400">
     </p>
 
 #### Sabit Ücret
 - `Lojistik Regresyon`:
-  - Accuracy: 0.56
+  - Accuracy: 0.57
   - Sınıflandırma Raporu:
     ```
     Classification Report for Logistic Regression:
                   precision    recall  f1-score   support
     
-           Düşük       0.67      0.61      0.64       250
-            Orta       0.48      0.38      0.42       237
-          Yüksek       0.52      0.67      0.59       248
+           Düşük       0.68      0.67      0.68       250
+            Orta       0.51      0.52      0.51       237
+          Yüksek       0.52      0.52      0.52       248
     
-        accuracy                           0.56       735
-       macro avg       0.56      0.55      0.55       735
-    weighted avg       0.56      0.56      0.55       735
+        accuracy                           0.57       735
+       macro avg       0.57      0.57      0.57       735
+    weighted avg       0.57      0.57      0.57       735
     ```
   - Karışıklık Matrisi:
     <p align="center">
-    <img src="https://github.com/user-attachments/assets/e2c7cc65-45d6-4e58-bfed-b178e19ce38f" width="400">
+    <img src="https://github.com/user-attachments/assets/7ae0c634-8549-40b7-9a41-22b053e7bb4c" width="400">
     </p>
 
 - `Support Vector Machine (SVM)`:
@@ -311,37 +311,37 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
     Classification Report for Support Vector Machine:
                   precision    recall  f1-score   support
     
-           Düşük       0.66      0.52      0.58       250
-            Orta       0.48      0.32      0.39       237
-          Yüksek       0.50      0.75      0.60       248
+           Düşük       0.63      0.62      0.63       250
+            Orta       0.47      0.53      0.50       237
+          Yüksek       0.52      0.46      0.49       248
     
         accuracy                           0.54       735
-       macro avg       0.54      0.53      0.52       735
-    weighted avg       0.55      0.54      0.52       735
+       macro avg       0.54      0.54      0.54       735
+    weighted avg       0.54      0.54      0.54       735
     ```
   - Karışıklık Matrisi:
     <p align="center">
-    <img src="https://github.com/user-attachments/assets/133434b3-fc63-489d-9ff2-0e6e6e289d8c" width="400">
+    <img src="https://github.com/user-attachments/assets/3dc8f109-a450-4762-b883-994e4e796878" width="400">
     </p>
     
 - `Random Forest`:
-  - Accuracy: 0.64
+  - Accuracy: 0.63
   - Sınıflandırma Raporu:
     ```
     Classification Report for Random Forest:
                   precision    recall  f1-score   support
     
-           Düşük       0.70      0.60      0.65       250
-            Orta       0.56      0.71      0.63       237
-          Yüksek       0.68      0.61      0.64       248
+           Düşük       0.71      0.61      0.66       250
+            Orta       0.55      0.63      0.59       237
+          Yüksek       0.63      0.65      0.64       248
     
-        accuracy                           0.64       735
-       macro avg       0.65      0.64      0.64       735
-    weighted avg       0.65      0.64      0.64       735
+        accuracy                           0.63       735
+       macro avg       0.63      0.63      0.63       735
+    weighted avg       0.63      0.63      0.63       735
     ```
   - Karışıklık Matrisi:
     <p align="center">
-    <img src="https://github.com/user-attachments/assets/722a4b20-fc1b-48e6-a89b-9eb3b3f7197e" width="400">
+    <img src="https://github.com/user-attachments/assets/1920eae6-da5c-4798-8551-ac230f97a6eb" width="400">
     </p>
 
 <br><br>
@@ -349,16 +349,16 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
 ### Model Accuracy Değerleri Grafiği
 <br>
   <p align="center">
-    <img src="https://github.com/user-attachments/assets/67088134-5ad5-4072-b6d9-acb00cc02520" width="800">
+    <img src="https://github.com/user-attachments/assets/0e8c6b87-2c72-46f6-b3c4-1d9e12642c87" width="800">
   </p>
 <br><br>
 
 ### Roc Curve Grafikleri(Saatlik Ücretler)
 <br>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/31f4214a-7393-4045-b0df-af08a5858732" width="400">
-  <img src="https://github.com/user-attachments/assets/718f0bb5-8095-4328-8e69-6a57ee230aa7" width="400">
-  <img src="https://github.com/user-attachments/assets/737df630-b75b-444c-9c7f-1ef02c0e689d" width="400">
+  <img src="https://github.com/user-attachments/assets/afd40dc8-ca07-4beb-9edf-706fac6df5c4" width="400">
+  <img src="https://github.com/user-attachments/assets/87ff82c6-b7dd-4447-83af-9e7541bcedbe" width="400">
+  <img src="https://github.com/user-attachments/assets/4c350753-755d-4eec-8446-1556a76acd79" width="400">
 </p>
   
 
@@ -382,23 +382,23 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
 AUC (Area Under Curve) değeri, sınıflandırıcının başarısını temsil eder ve genellikle 0.5 ile 1 arasında değişir. Değer ne kadar 1’e yakınsa, model o kadar iyi performans gösteriyor demektir. Sınıflara ait çizgiler ise ne kadar sol üste yakınsa o kadar doğru tahmin yapıldığını gösterir.
 
 -  `Random Forest`
-  - Düşük Sınıf (AUC = 0.81): Düşük sınıf için model oldukça başarılı, çünkü AUC değeri 0.8’in üzerinde. Ancak diğer sınıflara kıyasla biraz daha düşük performans sergiliyor.
- - Orta Sınıf (AUC = 0.87): Orta sınıfta daha iyi bir ayırt ediciliğe sahip.
- - Yüksek Sınıf (AUC = 0.93): Random Forest modeli, yüksek sınıf için çok güçlü bir performans gösteriyor. AUC değeri 0.9’un üzerinde.
+  - Düşük Sınıf (AUC = 0.84): Düşük sınıf için model oldukça başarılı, çünkü AUC değeri 0.8’in üzerinde. Ancak diğer sınıflara kıyasla biraz daha düşük performans sergiliyor.
+ - Orta Sınıf (AUC = 0.89): Orta sınıfta daha iyi bir ayırt ediciliğe sahip.
+ - Yüksek Sınıf (AUC = 0.95): Random Forest modeli, yüksek sınıf için çok güçlü bir performans gösteriyor. AUC değeri 0.9’un üzerinde.
 
 Genel olarak, Random Forest modeli tüm sınıflar için dengeli bir şekilde yüksek bir performans sergilemiştir.
 
 - `Support Vector Machine (SVM)`
-  - Düşük Sınıf (AUC = 0.67): Düşük sınıfta performansı zayıf, AUC değeri 0.7’nin altında kalıyor. Bu sınıf için model zorluk yaşayabilir.
-  - Orta Sınıf (AUC = 0.82): Orta sınıfta performansı daha iyi, AUC değeri 0.8’in üzerinde.
-  - Yüksek Sınıfı (AUC = 0.85): Yüksek sınıf için güçlü bir performans sergiliyor, ancak Random Forest ile kıyaslandığında biraz geride kalıyor.
+  - Düşük Sınıf (AUC = 0.71): Düşük sınıfta performansı zayıf, AUC değeri 0.7 civarında kalıyor. Bu sınıf için model zorluk yaşayabilir.
+  - Orta Sınıf (AUC = 0.85): Orta sınıfta performansı daha iyi, AUC değeri 0.8’in üzerinde.
+  - Yüksek Sınıfı (AUC = 0.87): Yüksek sınıf için güçlü bir performans sergiliyor, ancak Random Forest ile kıyaslandığında biraz geride kalıyor.
 
 SVM modeli genel olarak iyi bir performansa sahip, ancak düşük sınıf için ayırt etme gücü zayıf.
 
 - `Lojistik Regresyon`
-  - Düşük Sınıfı (AUC = 0.68): Düşük sınıfta performansı zayıf, AUC değeri 0.7’nin altında kalıyor.
-  - Orta Sınıfı (AUC = 0.82): Orta sınıfta performansı iyi, AUC değeri 0.8’in üzerinde.
-  - Yüksek Sınıfı (AUC = 0.85): Yüksek sınıf için güçlü bir performans sergiliyor, ancak Random Forest kadar iyi değil.
+  - Düşük Sınıfı (AUC = 0.73): Düşük sınıfta performansı zayıf, AUC değeri 0.7’nin altında kalıyor.
+  - Orta Sınıfı (AUC = 0.85): Orta sınıfta performansı iyi, AUC değeri 0.8’in üzerinde.
+  - Yüksek Sınıfı (AUC = 0.87): Yüksek sınıf için güçlü bir performans sergiliyor, ancak Random Forest kadar iyi değil.
 
 
 
