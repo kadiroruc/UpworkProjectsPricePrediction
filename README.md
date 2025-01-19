@@ -406,7 +406,7 @@ SVM modeli genel olarak iyi bir performansa sahip, ancak düşük sınıf için 
 
 Analiz ve uyguladığım modellerin detaylı bir anlatımı için aşağıdaki videoya göz atabilirsiniz:
 
-[**Videoyu İzleyin**](video-linki)
+[**Videoyu İzleyin**](https://youtu.be/qMvNZL9zDA4)
 
 
 ---
