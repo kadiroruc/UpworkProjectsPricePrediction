@@ -9,10 +9,12 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
 
 1. [Veri Seti](#veri-seti)
 2. [Veri Hazırlama](#veri-hazırlama)
-3. [Makine Öğrenmesi Modelleri](#makine-öğrenmesi-modelleri)
-4. [Sonuçlar ve Analiz](#sonuçlar-ve-analiz)
-5. [Video Açıklama](#video-açıklama)
-6. [GitHub Deposu](#github-deposu)
+3. [Veri Görselleştirme](#veri-görselleştirme)
+4. [Makine Öğrenimi Modelleri](#makine-öğrenimi-modelleri)
+5. [Sonuçlar](#sonuçlar)
+5. [Analiz](#analiz)
+7. [Video Açıklama](#video-açıklama)
+8. [GitHub Deposu](#github-deposu)
 
 
 ## Veri Seti
