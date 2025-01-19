@@ -375,7 +375,7 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
 <br>
 
 ### Roc Curve Analizi (Saatlik Ücretler)
-AUC (Area Under Curve) değeri, sınıflandırıcının başarısını temsil eder ve genellikle 0.5 ile 1 arasında değişir. Değer ne kadar 1’e yakınsa, model o kadar iyi performans gösteriyor demektir. 
+AUC (Area Under Curve) değeri, sınıflandırıcının başarısını temsil eder ve genellikle 0.5 ile 1 arasında değişir. Değer ne kadar 1’e yakınsa, model o kadar iyi performans gösteriyor demektir. Sınıflara ait çizgiler ise ne kadar sol üste yakınsa o kadar doğru tahmin yapıldığını gösterir.
 
 -  `Random Forest`
   - Düşük Sınıf (AUC = 0.81): Düşük sınıf için model oldukça başarılı, çünkü AUC değeri 0.8’in üzerinde. Ancak diğer sınıflara kıyasla biraz daha düşük performans sergiliyor.
