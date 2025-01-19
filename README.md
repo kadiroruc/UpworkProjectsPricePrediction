@@ -152,6 +152,11 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
 </p>
 <br><br>
 
+- Saatlik ücretleri içeren Dataframe'de bazı özellikler için korelasyon matrisi oluşturuldu.
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/feefece0-2047-4843-9c15-23a0e7cf311a" width="600">
+  </p>
+<br><br>
 - Ücret değerleri boxplot üzerinde gösterildi. Bu sayede min, max ve aykırı değerler görüntülenmiş oldu. Buna ek olarak aralıklar oluşturularak ücret dağılımları bar grafikleri üzerinde gösterildi.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/004c624b-6448-47c6-89db-67bbbd30352c" width="600">
