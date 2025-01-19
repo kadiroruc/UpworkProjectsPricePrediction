@@ -14,7 +14,6 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
 5. [Sonuçlar](#sonuçlar)
 5. [Analiz](#analiz)
 7. [Video Açıklama](#video-açıklama)
-8. [GitHub Deposu](#github-deposu)
 
 
 ## Veri Seti
