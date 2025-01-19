@@ -20,8 +20,8 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
 ## Veri Seti
 
 - **Veri Kaynağı**:  
-  Veri, [**Upwork**](https://www.upwork.com/nx/find-work/) üzerinden veri kazıma teknikleriyle elde edilmiştir ve makine öğrenmesi modeli için hazırlanmıştır
-  [Dosya Adı](https://github.com/kullanıcı-adı/proje-adı/blob/branch-adı/dosya-yolu)
+  Veri, [**Upwork**](https://www.upwork.com/nx/find-work/) üzerinden veri kazıma teknikleriyle elde edilmiştir ve makine öğrenmesi modeli için hazırlanmıştır.
+  - [Scraping](https://github.com/kadiroruc/UpworkProjectsPricePrediction/tree/main/scraping)
 
 - **Veri Seti Detayları**:  
   - Job Title: Proje Başlığı
@@ -409,11 +409,5 @@ Analiz ve uyguladığım modellerin detaylı bir anlatımı için aşağıdaki v
 
 [**Videoyu İzleyin**](video-linki)
 
-
-## GitHub Deposu
-
-Bu projeye ait tüm kod ve dosyalar GitHub reposunda mevcuttur.
-
-[**GitHub Deposu**](repo-linki)
 
 ---
