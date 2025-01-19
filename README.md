@@ -339,12 +339,14 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
     </p>
 
 <br><br>
+
 ### Model Accuracy Değerleri Grafiği
 <br>
   <p align="center">
     <img src="https://github.com/user-attachments/assets/67088134-5ad5-4072-b6d9-acb00cc02520" width="800">
   </p>
 <br><br>
+
 ### Roc Curve Grafikleri(Saatlik Ücretler)
 <br>
 <p align="center">
@@ -361,7 +363,7 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
 
 - Random Forest, hem sabit ücret hem de saatlik ücret verilerinde en iyi performansı gösterdi.
   - Daha karmaşık bir yapı ve çok sayıda ağaç kullanarak sınıfları daha iyi ayırabildi.
-	- Her iki veri setinde de “Yüksek” sınıfını tespit etmede oldukça başarılıdır.
+  - Her iki veri setinde de “Yüksek” sınıfını tespit etmede oldukça başarılıdır.
 - Logistic Regression ve Support Vector Machine, özellikle “Orta” sınıfta yetersiz kaldı.
   - Bu modeller, sınıflar arasındaki çizgiyi net bir şekilde ayıramadığı için performansı düşüktür.
 - Dengesiz sınıfların etkisi:
@@ -369,6 +371,7 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
 - Aykırı değerlerin kaldırılması accuracy değerlerinde yaklaşık olarak 0.01 - 0.03 arasında artış sağladı.
 
 <br>
+
 ### Roc Curve Analizi (Saatlik Ücretler)
 AUC (Area Under Curve) değeri, sınıflandırıcının başarısını temsil eder ve genellikle 0.5 ile 1 arasında değişir. Değer ne kadar 1’e yakınsa, model o kadar iyi performans gösteriyor demektir. 
 
