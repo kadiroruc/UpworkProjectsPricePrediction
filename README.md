@@ -61,6 +61,10 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
   df = pd.concat([df, filtered_encoded_skills], axis=1)
   df = df.drop(columns=['Skills'])
   ```
+- Level sütununda bulunan "Entry Level", "Intermediate", "Expert" seviyelerine one-hot encoding yapıldı.
+  ```
+  encoded_Level = df_cleaned['Level'].str.get_dummies()
+  ```
 
 - Hourly/Fixed sütununda bazı veriler "Hourly: $25.00 - $35.00" şeklindeydi buradan bu sayısal değerler yakalandı ve ortalaması alındı. Budget sütununda ise bazı veriler "Est. budget: $150.00" şeklindeydi. Buradan da sayısal değerler yakalandı. Hourly/Fixed sütunu artık saatlik ücretleri tuttuğu için ismi Hourly, Budget sütunu artık sabit ücretleri tuttuğu için ismi Fixed olarak değiştirildi.
   ```
