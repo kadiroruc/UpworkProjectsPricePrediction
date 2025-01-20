@@ -46,7 +46,7 @@ Bu projede; Upwork sitesinden veri kazıma ile elde edilen veriler üzerinde ver
   ```
 - Skills sütunundaki eksik değerler kaldırıldı.
   ```
-  df['Skills'] = df['Skills'].str.replace(r', \+\d+', '', regex=True)
+  df['Skills'] = df['Skills'].dropna()
   ```
 - Yetenekler encoding yapılmadan önce Skills sütununda virgülle ayrılmış değerler alınarak `all_skills` serisi oluşturuldu ve en çok geçen yeteneklerden 200 tanesi seçildi.(Genellikle veri sayısının 1/10'u kadar özellik sütunu uygun oluyor.)
   ```
